@@ -1,96 +1,18 @@
-// // Base: Variables
+// Base: Variables
 @import "{bquarks:penguin-lite}/src/base/variables";
-//
-// // Components: Variables
+
+// Components: Variables
 @import "{bquarks:penguin-lite}/src/components/variables";
-//
-// // Base: Mixins
+
+// Base: Mixins
 @import "{bquarks:penguin-lite}/src/base/mixins";
 
 // Theme:
 @import "base/variables";
 @import "components/variables";
-@import "base/layout";
-
-// // Base: Reset
-// @import "{bquarks:penguin-lite}/src/base/reset";
 
 // Base: Scaffolding
 @import "{bquarks:penguin-lite}/src/base/scaffolding";
-// @import "components/scaffolding";
-
-// Base: Print
-@import "{bquarks:penguin-lite}/src/base/print";
-//
-// Base: Utils
-@import "{bquarks:penguin-lite}/src/base/utils";
-
-// Base: Responsive utilities
-@import "{bquarks:penguin-lite}/src/base/responsive";
-@import "base/responsive";
 
 // Base: Grid system
 @import "{bquarks:penguin-lite}/src/base/grid";
-
-// Components: Animations
-// @import "{bquarks:penguin-lite}/src/base/animations";
-
-// Components: Alert
-// @import "{bquarks:penguin-lite}/src/components/alert";
-// @import "components/alert";
-
-// Components: Text
-@import "{bquarks:penguin-lite}/src/components/text";
-@import "components/text";
-
-// Components: Dropdown
-// @import "{bquarks:penguin-lite}/src/components/dropdown";
-// @import "components/dropdown";
-
-// Components: Button
-@import "{bquarks:penguin-lite}/src/components/button";
-@import "components/button";
-
-// Components: Navigation
-@import "{bquarks:penguin-lite}/src/components/navigation";
-@import "components/navigation";
-
-// Components: Tab
-@import "{bquarks:penguin-lite}/src/components/tab";
-@import "components/tab";
-
-// Components: Breadcumb
-// @import "{bquarks:penguin-lite}/src/components/breadcrumb";
-// @import "components/breadcrumb";
-
-// Components: Table
-@import "{bquarks:penguin-lite}/src/components/table";
-@import "components/table";
-
-// Components: Form
-// @import "{bquarks:penguin-lite}/src/components/form";
-// @import "components/form";
-
-// UI Components: Icon
-// @import "{bquarks:penguin-lite}/src/components/icon";
-// @import "components/icon";
-
-// UI Components: Modal
-// @import "{bquarks:penguin-lite}/src/components/modal";
-// @import "components/modal";
-
-// Components: Banner
-// @import "{bquarks:penguin-lite}/src/components/banner";
-// @import "components/banner";
-
-// Components: Spinner
-@import "{bquarks:penguin-lite}/src/components/spinner";
-@import "components/spinner";
-
-// Components: Paginator
-// @import "{bquarks:penguin-lite}/src/components/paginator";
-// @import "components/paginator";
-
-// Components: Panel
-// @import "{bquarks:penguin-lite}/src/components/panel";
-// @import "components/panel";
