@@ -1,5 +1,7 @@
     <template name="messages">
-        {{#each messages}}
-        <strong>{{name}}:</strong> {{message}} <button>Remove</button>
-        <br> {{/each}}
+        {{#if currentUser}}
+            {{#each messages}}
+            <strong>{{name}}:</strong> {{message}} <button>Remove</button>
+            <br> {{/each}}
+        {{/if}}
     </template>
