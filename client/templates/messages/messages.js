@@ -3,6 +3,8 @@ Template.messages.events({
     // increment the counter when button is clicked
     // instance.counter.set(instance.counter.get() + 1);
     Messages.remove(this._id);
+    Router.go('welcome');
+
   },
 });
 

@@ -23,3 +23,4 @@ accounts-password
 accounts-ui
 bquarks:penguin-lite
 fourseven:scss
+iron:router
