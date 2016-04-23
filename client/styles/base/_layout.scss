@@ -1,0 +1,106 @@
+.main {
+    display: flex;
+}
+
+    .main-menu  {
+        flex: 2;
+    }
+
+    .main-content {
+        background: #eee;
+        padding: 1rem;
+        flex: 10;
+        min-height: 90vh;
+    }
+
+.footer {
+    padding: 1rem;
+    align-items: flex-end;
+    color: $light-grey-color;
+}
+
+
+
+.panel {
+
+}
+
+    .box {
+        background: white;
+        border: 2px solid $dark-grey-color;
+        padding: 1rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+
+        .box-title {
+            margin-bottom: 1rem;
+            border-bottom: 1px solid $light-grey-color;
+        }
+
+
+/* titles */
+
+.panel__title {
+    margin-bottom: 1rem;
+}
+
+.title--main {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+
+.panel__content {
+    margin-bottom: 1rem;
+}
+
+
+
+/* form components */
+
+.radio-box {
+    legend {
+        margin-bottom: .5rem;
+    }
+}
+
+
+
+/* table */
+
+.table {
+    background: white;
+}
+
+.filter-box {
+        background: palette(elephant-base, light);
+        color: $white-color;
+        padding: .5rem 1rem 0 .2rem;
+
+        legend {
+            margin: 0 1rem 1rem .5rem;
+            float: left;
+        }
+
+        input[type="radio"] {
+            appearance:checkbox!important;
+            -moz-appearance:checkbox!important; /* Firefox */
+            -webkit-appearance:checkbox!important; /* Safari and Chrome */
+            display: inline;
+        }
+
+}
+
+.reactive-table {
+    width: 100%;
+}
+
+.reactive-table-navigation {
+    padding: 1rem 0 0 0;
+}
+
+.reactive-table-navigation .form-inline input {
+    padding: .5rem;
+    width: 3rem;
+}

@@ -1,0 +1,79 @@
+// /*------------------------------------*\
+//     #GLOBAL VALUES
+// \*------------------------------------*/
+
+// Colors palette
+$elephant-base : #303048;
+$titanium-base: orange;
+
+$palettes: (
+    elephant-base: (
+        base : $elephant-base,
+        light: lighten($elephant-base, 10%),
+        dark : darken($elephant-base, 10%)
+    ),
+    titanium-base: (
+        base : $titanium-base,
+        light: lighten($titanium-base, 10%),
+        dark : darken($titanium-base, 10%)
+    )
+);
+
+// Brand colors
+// $brand-primary           : black;
+$brand-primary-text         : white;
+// $brand-secondary         : orange;
+$brand-secondary-text       : white;
+
+// Links
+// $link-color              : $brand-primary;
+// $link-hover-color        : false;
+// $link-active-color       : false;
+// $link-visited-color      : false;
+// $link-focus-color        : false;
+
+// Text
+$selection-text-color-bg : white;
+$selection-text-color    : black;
+
+// Typography
+// $font-family-base        : "Arial", Helvetica, Sans-serif;
+// $font-size-small         : 13;
+// $font-size-base          : 16;
+// $font-size-medium        : 18;
+// $font-size-large         : 20;
+// $line-height-base        : 22;
+
+// Scaffolding
+// $body-font-size          : $font-size-base;
+// $body-bg                 : white;
+$body-color                 : black;
+
+// Print
+// $print-text-color        : $brand-primary-text;
+// $print-link-visited-color: $brand-primary ;
+// $print-border-color      : $brand-secondary;
+// $print-page-margin       : 0.5cm;
+
+// Breakpoints
+$slicer-breakpoints      : 0		400px		600px	 	800px	 	1050px;
+$slicer-breakpoint-names : 'a' 		'b' 		'c' 		'd' 		'e';
+
+
+
+// Grid
+$grid-system             : true;
+$grid-columns            : 12;
+$grid-gutter             : 30;
+
+// Responsive
+$responsive-visibility   : true;
+
+// Utils
+// $utils-classes           : true;
+
+// Animations
+// $animation-effects       : true;
+// $transition-duration     : 0.3s;
+// $transition-timing       : linear;
+// $transition-delay        : 0;

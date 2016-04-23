@@ -21,3 +21,5 @@ insecure                # Allow all DB writes from clients (for prototyping)
 accounts-base
 accounts-password
 accounts-ui
+bquarks:penguin-lite
+fourseven:scss
